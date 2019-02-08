@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b6d9f34a-a421-420a-85c7-59d84ff0011c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/TestInputUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/TestInputUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-pepper-box-10.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pepper-box-10.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gslab.pepper.test.PepperBoxSamplerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gslab.pepper.test.PepperBoxSamplerTest.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,73 +25,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="238">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxConfigElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="303">
+              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/SchemaProcessor.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxLoadGenTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/SchemaTranslator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/loadgen/impl/PlaintTextLoadGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/loadgen/impl/SerializedLoadGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/loadgen/BaseLoadGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="303">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -95,14 +63,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3757">
-              <caret line="247" selection-start-line="247" selection-end-line="247" />
+            <state relative-caret-position="184">
+              <caret line="112" column="110" selection-start-line="112" selection-start-column="110" selection-end-line="112" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/PropsKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/TestInputUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxSamplerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -128,8 +141,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/SchemaParser.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/TestInputUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java" />
       </list>
     </option>
   </component>
@@ -211,6 +228,32 @@
               <item name="pepper-box" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pepper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepper-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepper-box" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pepper" type="462c0819:PsiDirectoryNode" />
+              <item name="sampler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepper-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepper-box" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pepper" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pepper-box" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pepper-box" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -251,7 +294,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549649932939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549666409954" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/commons-lang3-3.5.jar!/" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -283,7 +326,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32147652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -319,20 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="68" lean-forward="true" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/PropsKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -429,10 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="87" column="20" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -478,34 +507,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/PropsKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3757">
-          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        <state relative-caret-position="303">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxConfigElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/input/CustomFunctions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxLoadGenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="303">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxSamplerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/TestInputUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="238">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gslab/pepper/test/PepperBoxConfigElementTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/PepperBoxLoadGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="167">
+          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/util/ProducerKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gslab/pepper/sampler/PepperBoxKafkaSampler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="112" column="110" selection-start-line="112" selection-start-column="110" selection-end-line="112" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -30,6 +30,8 @@ public class ProducerKeys {
 
     public static final String BATCH_SIZE_CONFIG_DEFAULT = "16384";
 
+    public static final String MAX_REQUEST_SIZE_CONFIG_DEFAULT = "53477376";  //Addition to original plugin
+
     public static final String LINGER_MS_CONFIG_DEFAULT = "0";
 
     public static final String BUFFER_MEMORY_CONFIG_DEFAULT = "33554432";

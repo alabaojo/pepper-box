@@ -38,6 +38,7 @@ public class TestInputUtils {
             "send.buffer.bytes=131072\n" +
             "receive.buffer.bytes=32768\n" +
             "batch.size=16384\n" +
+            "max.request.size=53477376\n" +
             "linger.ms=0\n" +
             "buffer.memory=33554432\n" +
             "compression.type=none\n" +
