@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.gslab.pepper.test.FieldFunctionsTest" time="0.719" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.gslab.pepper.test.FieldFunctionsTest" time="1.222" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
@@ -8,7 +8,6 @@
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\AlabaOlo\boschoperations\pepper-box"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
-    <property name="jkafka.version" value="0.9.0.1"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -47,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Djmeter.version=3.0 -Djkafka.version=0.9.0.1"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Djmeter.version=3.0 -Dkafka.version=0.9.0.1"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -58,6 +57,7 @@
     <property name="sun.stderr.encoding" value="cp850"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="jmeter.version" value="3.0"/>
+    <property name="kafka.version" value="0.9.0.1"/>
     <property name="maven.home" value="C:\opt\apache-maven-3.6.0\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -67,9 +67,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyUtilFunctions" time="0.521"/>
+  <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyUtilFunctions" time="0.942"/>
   <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyUserFunctions" time="0"/>
-  <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyTimeFunctions" time="0.198"/>
+  <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyTimeFunctions" time="0.28"/>
   <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyRandomFunctions" time="0"/>
   <testcase classname="com.gslab.pepper.test.FieldFunctionsTest" name="verifyRandomRangeFunctions" time="0"/>
 </testsuite>

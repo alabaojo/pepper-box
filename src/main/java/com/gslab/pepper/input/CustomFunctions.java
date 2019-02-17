@@ -8,8 +8,8 @@ package com.gslab.pepper.input;
  * @since 01/03/2017
  */
 public class CustomFunctions {
-    public static String createMsgBody(int msgSize) {
-        int charCount = 1024 * msgSize - 100; //in kilobytes
+    public static String createMsgBody(Double msgSize) {
+        int charCount = (int)(1024 * msgSize - 100); //in kilobytes
         StringBuilder sb = new StringBuilder(charCount);
         for (int i=0; i<charCount; i++) {
             sb.append('x');
